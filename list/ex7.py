@@ -8,6 +8,7 @@ def segundosParaTempo(seg):
         minutos = int(seg / 60)
     if minutos > 0:
         horas = int(minutos / 60)
+        minutos = minutos % 60
     return f'{horas}:{minutos}:{segRestante}'
 
 segundos = int(input('Segundos: '))
