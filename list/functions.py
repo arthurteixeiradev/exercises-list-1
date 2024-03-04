@@ -104,8 +104,8 @@ def tri(x, y, z):
             print('É um Triângulo Isósceles!')
             return
         else:
-            print('É um triângulo Escaleno!')
+            print('É um Triângulo Escaleno!')
             return
     else: 
-        print('Os valora NÃO PODEM formar um triângulo')
+        print('Os valores NÃO PODEM formar um triângulo')
         return
